@@ -7,11 +7,11 @@ require 'fastlane/plugin/property_file_read/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-property_file_read'
   spec.version       = Fastlane::PropertyFileRead::VERSION
-  spec.author        = 'Peter Turza'
-  spec.email         = 'peter.turza@gmail.com'
+  spec.author        = 'United Classifieds'
+  spec.email         = 'unitedclassifiedsapps@gmail.com'
 
   spec.summary       = 'Reads property file into dictionary'
-  spec.homepage      = "https://github.com/peterturza/fastlane-plugin-property_file_read"
+  spec.homepage      = "https://github.com/unitedclassifiedsapps/fastlane-plugin-property_file_read"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
